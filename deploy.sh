@@ -1,6 +1,5 @@
 #!/bin/bash
 
-echo "conectando al servidor remoto..."
 
 apt update
 
@@ -16,4 +15,3 @@ cp /etc/letsencrypt/live/dev5.cyberbunny.online/fullchain.pem
 cp /etc/letsencrypt/live/dev5.cyberbunny.online/privkey.pem
 
 
-echo "proceso completado"
